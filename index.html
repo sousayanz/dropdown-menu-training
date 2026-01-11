@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Menu Dropdown</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h1>Primeiros contatos com HTML &amp; CSS</h1>
+        <p>Brincando com menu dropdown, abas e um monte de texto só para treinar.</p>
+    </header>
+
+    <menu>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+
+            <li class="has-sub">
+                <a href="#tutoriais">Tutoriais</a>
+                <ul class="submenu">
+                    <li><a href="#html-basico">HTML Básico</a></li>
+                    <li><a href="#css-basico">CSS Básico</a></li>
+                    <li><a href="#pratica">Dicas de Prática</a></li>
+                </ul>
+            </li>
+
+            <li class="has-sub">
+                <a href="#links">Links</a>
+                <ul class="submenu">
+                    <li><a href="#links-uteis">Links Úteis</a></li>
+                    <li><a href="#ideias">Ideias de Projetos</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </menu>
+
+    <main class="conteudo">
+
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>
+                Esta página foi criada como um primeiro experimento com HTML e CSS,
+                focando principalmente em construir um menu com efeito de dropdown.
+            </p>
+            <p>
+                A ideia é simples: ter um menu horizontal, e quando o mouse passa
+                em cima de alguns itens, um submenu aparece com mais opções.
+            </p>
+            <p>
+                O objetivo não é ser o site mais bonito do mundo, mas sim ter um
+                lugar onde seja possível testar ideias, quebrar o layout e aprender
+                um pouco mais a cada alteração feita no código.
+            </p>
+
+            <div class="caixa-info">
+                <h3>O que você encontra aqui?</h3>
+                <ul>
+                    <li>Menu principal com submenus usando apenas CSS.</li>
+                    <li>Seções de texto para praticar organização de conteúdo.</li>
+                    <li>Um layout simples, fácil de entender e de modificar.</li>
+                    <li>Espaço para futuras melhorias, como responsividade avançada.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="html-basico">
+            <h2>HTML Básico</h2>
+            <p>
+                HTML é a linguagem de marcação responsável por definir a estrutura
+                de uma página. É através dela que são criados títulos, parágrafos,
+                listas, links, imagens e muitos outros elementos.
+            </p>
+            <p>
+                Neste projeto, o foco é usar tags simples como <code>&lt;header&gt;</code>,
+                <code>&lt;menu&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>
+                e <code>&lt;footer&gt;</code> para organizar o conteúdo.
+            </p>
+            <p>
+                Quanto mais semântico o código, mais fácil fica para outras pessoas
+                (e para você no futuro) entenderem o que está acontecendo em cada parte
+                da página.
+            </p>
+        </section>
+
+        <section id="css-basico">
+            <h2>CSS Básico</h2>
+            <p>
+                CSS é a linguagem que cuida da aparência da página. É com ela que
+                são definidos cores, tamanhos, espaçamentos, bordas, sombras e muito mais.
+            </p>
+            <p>
+                Nesta página, o CSS está sendo usado para colorir o fundo, centralizar
+                o conteúdo, estilizar o menu e criar o efeito de dropdown no submenu.
+            </p>
+            <p>
+                Pequenos detalhes, como um gradiente no menu ou uma sombra em um
+                bloco de texto, podem fazer muita diferença na sensação que o site passa.
+            </p>
+        </section>
+
+        <section id="pratica">
+            <h2>Dicas de Prática</h2>
+            <p>
+                Aprender HTML e CSS exige prática constante. Não adianta apenas
+                assistir aulas ou ler tutoriais se o código nunca sai do papel.
+            </p>
+            <p>
+                Uma boa estratégia é criar mini projetos como este: algo simples,
+                mas com começo, meio e fim, onde seja possível testar pequenas ideias
+                sem se preocupar demais com perfeição.
+            </p>
+            <p>
+                O costume de revisar o próprio código depois de um tempo também
+                ajuda bastante. Muitas vezes, soluções melhores surgem quando você
+                volta a olhar para um projeto antigo com mais experiência.
+            </p>
+        </section>
+
+        <section id="links-uteis">
+            <h2>Links Úteis</h2>
+            <p>
+                Aqui poderia entrar uma lista de sites, documentações oficiais,
+                tutoriais e canais de vídeo que ajudam no aprendizado de desenvolvimento
+                web. Por enquanto, este texto funciona como um lembrete para adicionar
+                esses links no futuro.
+            </p>
+            <p>
+                Ter uma coleção de referências confiáveis facilita muito quando surge
+                alguma dúvida específica ou quando é preciso revisar um conceito rápido.
+            </p>
+        </section>
+
+        <section id="ideias">
+            <h2>Ideias de Projetos</h2>
+            <p>
+                Quando o assunto é aprender programação, ter ideias de projetos é
+                quase tão importante quanto saber a sintaxe da linguagem.
+            </p>
+            <p>
+                Algumas ideias que combinam com HTML e CSS:
+            </p>
+            <ul>
+                <li>Página de apresentação pessoal.</li>
+                <li>Pequeno portfólio com prints e descrições de projetos.</li>
+                <li>Landing page fictícia de um produto inventado.</li>
+                <li>Clone simples de uma página famosa (só para treinar layout).</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                Esta seção é apenas ilustrativa. A ideia é simular um possível
+                formulário de contato que poderia existir em um site real.
+            </p>
+            <p>
+                Por enquanto, os campos não enviam nada para lugar nenhum, mas
+                já servem para treinar o uso de <code>&lt;label&gt;</code>,
+                <code>&lt;input&gt;</code> e <code>&lt;textarea&gt;</code>.
+            </p>
+
+            <form class="form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="nome@exemplo.com">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+                <button type="button">Enviar (apenas visual)</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto de estudo: menu dropdown com HTML e CSS. Sinta-se livre para copiar e modificar.</p>
+        <p>Yan - 2024</p>
+    </footer>
+
+</body>
+</html>
